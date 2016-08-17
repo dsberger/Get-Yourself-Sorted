@@ -1,0 +1,15 @@
+{
+  "name": "sorting-js",
+  "version": "1.0.0",
+  "description": "Many sorting algorithms in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Berger <dsberger@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.0.2"
+  }
+}
