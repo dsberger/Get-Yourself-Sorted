@@ -14,6 +14,12 @@ console.log(clock(sorting.insertionSort))
 console.log('\nquick sort')
 console.log(clock(sorting.quickSort))
 
+console.log('\nselection sort')
+console.log(clock(sorting.selectionSort))
+
+console.log('\ntree sort')
+console.log(clock(sorting.treeSort))
+
 function clock (sortingAlgorithm) {
   var start = microtime.now()
   sortingAlgorithm(cases.tenThousand)
